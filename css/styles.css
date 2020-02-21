@@ -19,6 +19,11 @@ img {
     margin-right: auto;
 }
 
+.services {
+    background: url(/images/s_image.jpg);
+
+}
+
 .home{
     text-align: center;
     padding: 90px;
@@ -26,4 +31,7 @@ img {
 
 pre {
     font-size: small;
+}
+p {
+    text-align: center;
 }
