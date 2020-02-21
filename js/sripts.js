@@ -15,6 +15,6 @@ $(document).ready(function() {
         $(this).text("image");
         },
         function() {
-            $(this).show();
+            $(this).show("image show");
         });
     });

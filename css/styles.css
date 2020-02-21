@@ -44,3 +44,6 @@ p {
     padding: 100px;
     text-align: center;
 }
+.input {
+    background: transparent;
+}
