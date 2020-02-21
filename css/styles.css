@@ -10,3 +10,20 @@ h2 {
 #hide3 {
     display: none;
 }
+#foot {
+    background-image: url(../images/h_img.jpg);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home{
+    text-align: center;
+    padding: 90px;
+}
+
+pre {
+    font-size: small;
+}
