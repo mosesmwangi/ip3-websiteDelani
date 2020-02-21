@@ -1,4 +1,6 @@
-
+function returnMessage() {
+    alert("message received");
+}
 
 $(document).ready(function() {
     $("#design").click(function() {
@@ -17,4 +19,10 @@ $(document).ready(function() {
         function() {
             $(this).show("image show");
         });
+    $("#form").submit(function(event) {
+        $(".input").val();
+        returnMessage();
+        event.preventDefault();
+    })
     });
+
