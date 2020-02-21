@@ -8,4 +8,5 @@ $(document).ready(function() {
     $("#prodDevt").click(function() {
         $("#hide3").toggle();
     })
+    $(".images").mouseenter();
 })
