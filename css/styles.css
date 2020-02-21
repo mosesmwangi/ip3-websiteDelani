@@ -35,3 +35,12 @@ pre {
 p {
     text-align: center;
 }
+#contUs {
+    text-align: center;
+    color: white;
+}
+.contactUs {
+    background: url(../images/c_image.jpg);
+    padding: 100px;
+    text-align: center;
+}

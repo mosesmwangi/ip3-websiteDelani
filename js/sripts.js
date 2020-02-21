@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
     $("#design").click(function() {
         $("#hide1").toggle();
@@ -8,5 +10,11 @@ $(document).ready(function() {
     $("#prodDevt").click(function() {
         $("#hide3").toggle();
     })
-    $(".images").mouseenter();
-})
+    $(".col-md-3").hover(function() 
+    {
+        $(this).text("image");
+        },
+        function() {
+            $(this).show();
+        });
+    });
