@@ -87,3 +87,7 @@ h1,h2 {
     position: relative;
     top: 45px;
 }
+::-webkit-input-placeholder {
+    color: white;
+    padding: 12px;
+}
