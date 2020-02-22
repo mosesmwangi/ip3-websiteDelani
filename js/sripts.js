@@ -2,6 +2,7 @@ function returnMessage() {
     alert("message received");
 }
 
+
 $(document).ready(function() {
     $("#design").click(function() {
         $("#hide1").toggle();
@@ -20,8 +21,10 @@ $(document).ready(function() {
             $(this).show("image show");
         });
     $("#form").submit(function(event) {
-        $(".input").val();
-        returnMessage();
+        var inKeyed = $(".input").val();
+        if(inKeyed != null) {
+            returnMessage();
+        }
         event.preventDefault();
     })
     });

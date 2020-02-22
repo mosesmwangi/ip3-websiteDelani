@@ -48,3 +48,42 @@ p {
     background: transparent;
     color: white;
 }
+#img {
+    position: relative; 
+    display: inline;
+} 
+
+#images {
+    padding-left: 520px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#form {
+    color: white;
+}
+
+.portfolio {
+    padding: 75px;
+}
+h1,h2 {
+    text-align: center;
+}
+#desDevProd {
+    padding: 75px;
+}
+.aboutUs {
+    padding: 75px;
+}
+#services {
+    padding: 75px;
+    color: white;
+}
+.lgo {
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+#mouse {
+    position: relative;
+    top: 45px;
+}
