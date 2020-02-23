@@ -13,11 +13,11 @@ h2 {
 #foot {
     background-image: url(../images/h_img.jpg);
 }
-img {
+/* img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .services {
     background: url(/images/s_image.jpg);
@@ -90,4 +90,14 @@ h1,h2 {
 ::-webkit-input-placeholder {
     color: white;
     padding: 12px;
+}
+/* #img1Show {
+    padding: 40px;
+}
+.imagePad {
+    padding-left: 20px;
+    padding-right: 20px;
+} */
+#designShow, #devShow, #productShow {
+    padding-left: 180px;
 }
